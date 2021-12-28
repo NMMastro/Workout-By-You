@@ -54,7 +54,6 @@ class ExerciseTimer: ObservableObject {
         }
         // If the current exercise is the last exercise, show the end screen
         else if (activeExerciseIndex + 1) >= workout.exercises.count && activeSet >= workout.sets {
-            workout.exercises[activeExerciseIndex].completed = true
             isEnd = true
         }
         // If the workout has breaks and is coming from an exercise, show a break screen
@@ -75,12 +74,10 @@ class ExerciseTimer: ObservableObject {
         // If the end screen is enabled, disable the end screen and play the last exercise
         if isEnd {
             isEnd = false
-            workout.exercises[self.activeExerciseIndex ].completed = false
             changeToExercise(at: self.activeExerciseIndex)
         }
         // Go back exercise
         else {
-            workout.exercises[self.activeExerciseIndex - 1].completed = false
             changeToExercise(at: self.activeExerciseIndex - 1)
         }
     }
@@ -88,10 +85,6 @@ class ExerciseTimer: ObservableObject {
     // Changes current exercise to specified index
     private func changeToExercise(at index: Int) {
         
-        // set the last exercise to completed
-        if index > 0 {
-            workout.exercises[index - 1].completed = true
-        }
         
         // If the new index is too big for the amount of exercises, switch to the next set if available or enable the end screen
         if index >= workout.exercises.count {

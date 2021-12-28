@@ -40,14 +40,12 @@ struct Workout: Identifiable, Codable {
         var seconds: Int
         
         // Has the exercise been completed or not (helps find the current exercise)
-        var completed: Bool
-        
+            
         // Initializer for exercise with default values
-        init(id: UUID = UUID(), title: String = "", seconds: Int = 10, completed: Bool = false) {
+        init(id: UUID = UUID(), title: String = "", seconds: Int = 10) {
             self.id = id
             self.title = title
             self.seconds = seconds
-            self.completed = completed
         }
     }
     
