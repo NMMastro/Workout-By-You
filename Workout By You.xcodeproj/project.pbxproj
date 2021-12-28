@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0C7B2027666C1A00F5177B /* Workout_By_YouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C7B1F27666C1A00F5177B /* Workout_By_YouApp.swift */; };
+		1C0C7B2427666C2000F5177B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0C7B2327666C2000F5177B /* Assets.xcassets */; };
+		1C0C7B2727666C2000F5177B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0C7B2627666C2000F5177B /* Preview Assets.xcassets */; };
+		1C0C7B2E27666F2800F5177B /* WorkoutHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C7B2D27666F2800F5177B /* WorkoutHeaderView.swift */; };
+		1C0C7B312766719F00F5177B /* WorkoutPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C7B302766719F00F5177B /* WorkoutPlan.swift */; };
+		1C0C7B332768350700F5177B /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C7B322768350700F5177B /* SelectionView.swift */; };
+		1C43E6282773803300508FFF /* EditWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C43E6272773803300508FFF /* EditWorkoutView.swift */; };
+		1C984E5B276EAB2D007E903D /* WorkoutMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984E5A276EAB2D007E903D /* WorkoutMainView.swift */; };
+		1C984E5D276FE7FA007E903D /* WorkoutFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984E5C276FE7FA007E903D /* WorkoutFooterView.swift */; };
+		1C984E5F2770DCDB007E903D /* ExerciseTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984E5E2770DCDB007E903D /* ExerciseTimer.swift */; };
+		1C984E6227736AEA007E903D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C984E6127736AEA007E903D /* CardView.swift */; };
+		1CEC1A122774E5D50086A694 /* DetailWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC1A112774E5D50086A694 /* DetailWorkoutView.swift */; };
+		1CEC1A1427767A070086A694 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC1A1327767A070086A694 /* ThemeView.swift */; };
+		1CF0F905277A1ED0004E4E31 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0F904277A1ED0004E4E31 /* FileManager.swift */; };
+		1CF62D8C276E5AC800CF51AE /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF62D8B276E5AC800CF51AE /* WorkoutView.swift */; };
+		1CF62D8E276E620700CF51AE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF62D8D276E620700CF51AE /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0C7B1C27666C1A00F5177B /* Workout By You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout By You.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0C7B1F27666C1A00F5177B /* Workout_By_YouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout_By_YouApp.swift; sourceTree = "<group>"; };
+		1C0C7B2327666C2000F5177B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C0C7B2627666C2000F5177B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C0C7B2D27666F2800F5177B /* WorkoutHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHeaderView.swift; sourceTree = "<group>"; };
+		1C0C7B302766719F00F5177B /* WorkoutPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlan.swift; sourceTree = "<group>"; };
+		1C0C7B322768350700F5177B /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		1C43E6272773803300508FFF /* EditWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWorkoutView.swift; sourceTree = "<group>"; };
+		1C984E5A276EAB2D007E903D /* WorkoutMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutMainView.swift; sourceTree = "<group>"; };
+		1C984E5C276FE7FA007E903D /* WorkoutFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutFooterView.swift; sourceTree = "<group>"; };
+		1C984E5E2770DCDB007E903D /* ExerciseTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTimer.swift; sourceTree = "<group>"; };
+		1C984E6127736AEA007E903D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1CEC1A112774E5D50086A694 /* DetailWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWorkoutView.swift; sourceTree = "<group>"; };
+		1CEC1A1327767A070086A694 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		1CF0F904277A1ED0004E4E31 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		1CF62D8B276E5AC800CF51AE /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		1CF62D8D276E620700CF51AE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C0C7B1927666C1A00F5177B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0C7B1327666C1A00F5177B = {
+			isa = PBXGroup;
+			children = (
+				1C0C7B1E27666C1A00F5177B /* Workout By You */,
+				1C0C7B1D27666C1A00F5177B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C0C7B1D27666C1A00F5177B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C0C7B1C27666C1A00F5177B /* Workout By You.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C0C7B1E27666C1A00F5177B /* Workout By You */ = {
+			isa = PBXGroup;
+			children = (
+				1C0C7B1F27666C1A00F5177B /* Workout_By_YouApp.swift */,
+				1C0C7B322768350700F5177B /* SelectionView.swift */,
+				1C984E6127736AEA007E903D /* CardView.swift */,
+				1CEC1A112774E5D50086A694 /* DetailWorkoutView.swift */,
+				1C43E6272773803300508FFF /* EditWorkoutView.swift */,
+				1CEC1A1327767A070086A694 /* ThemeView.swift */,
+				1C984E6027736A2A007E903D /* WorkoutViews */,
+				1C0C7B2F2766715E00F5177B /* Scripts */,
+				1C0C7B2327666C2000F5177B /* Assets.xcassets */,
+				1C0C7B2527666C2000F5177B /* Preview Content */,
+			);
+			path = "Workout By You";
+			sourceTree = "<group>";
+		};
+		1C0C7B2527666C2000F5177B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C0C7B2627666C2000F5177B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C0C7B2F2766715E00F5177B /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				1C984E5E2770DCDB007E903D /* ExerciseTimer.swift */,
+				1C0C7B302766719F00F5177B /* WorkoutPlan.swift */,
+				1CF62D8D276E620700CF51AE /* Theme.swift */,
+				1CF0F904277A1ED0004E4E31 /* FileManager.swift */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		1C984E6027736A2A007E903D /* WorkoutViews */ = {
+			isa = PBXGroup;
+			children = (
+				1CF62D8B276E5AC800CF51AE /* WorkoutView.swift */,
+				1C0C7B2D27666F2800F5177B /* WorkoutHeaderView.swift */,
+				1C984E5A276EAB2D007E903D /* WorkoutMainView.swift */,
+				1C984E5C276FE7FA007E903D /* WorkoutFooterView.swift */,
+			);
+			path = WorkoutViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C0C7B1B27666C1A00F5177B /* Workout By You */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0C7B2A27666C2000F5177B /* Build configuration list for PBXNativeTarget "Workout By You" */;
+			buildPhases = (
+				1C0C7B1827666C1A00F5177B /* Sources */,
+				1C0C7B1927666C1A00F5177B /* Frameworks */,
+				1C0C7B1A27666C1A00F5177B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Workout By You";
+			productName = "Workout By You";
+			productReference = 1C0C7B1C27666C1A00F5177B /* Workout By You.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C0C7B1427666C1A00F5177B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					1C0C7B1B27666C1A00F5177B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 1C0C7B1727666C1A00F5177B /* Build configuration list for PBXProject "Workout By You" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C0C7B1327666C1A00F5177B;
+			productRefGroup = 1C0C7B1D27666C1A00F5177B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C0C7B1B27666C1A00F5177B /* Workout By You */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C0C7B1A27666C1A00F5177B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0C7B2727666C2000F5177B /* Preview Assets.xcassets in Resources */,
+				1C0C7B2427666C2000F5177B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C0C7B1827666C1A00F5177B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0C7B2E27666F2800F5177B /* WorkoutHeaderView.swift in Sources */,
+				1C984E5D276FE7FA007E903D /* WorkoutFooterView.swift in Sources */,
+				1CF0F905277A1ED0004E4E31 /* FileManager.swift in Sources */,
+				1C984E5F2770DCDB007E903D /* ExerciseTimer.swift in Sources */,
+				1CEC1A1427767A070086A694 /* ThemeView.swift in Sources */,
+				1C0C7B312766719F00F5177B /* WorkoutPlan.swift in Sources */,
+				1C984E6227736AEA007E903D /* CardView.swift in Sources */,
+				1C984E5B276EAB2D007E903D /* WorkoutMainView.swift in Sources */,
+				1C0C7B2027666C1A00F5177B /* Workout_By_YouApp.swift in Sources */,
+				1CF62D8C276E5AC800CF51AE /* WorkoutView.swift in Sources */,
+				1C0C7B332768350700F5177B /* SelectionView.swift in Sources */,
+				1C43E6282773803300508FFF /* EditWorkoutView.swift in Sources */,
+				1CF62D8E276E620700CF51AE /* Theme.swift in Sources */,
+				1CEC1A122774E5D50086A694 /* DetailWorkoutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C0C7B2827666C2000F5177B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C0C7B2927666C2000F5177B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C0C7B2B27666C2000F5177B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Workout By You/Preview Content\"";
+				DEVELOPMENT_TEAM = 7DH5CQ2CBH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mastro.Workout-By-You";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C0C7B2C27666C2000F5177B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Workout By You/Preview Content\"";
+				DEVELOPMENT_TEAM = 7DH5CQ2CBH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mastro.Workout-By-You";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C0C7B1727666C1A00F5177B /* Build configuration list for PBXProject "Workout By You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0C7B2827666C2000F5177B /* Debug */,
+				1C0C7B2927666C2000F5177B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C0C7B2A27666C2000F5177B /* Build configuration list for PBXNativeTarget "Workout By You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0C7B2B27666C2000F5177B /* Debug */,
+				1C0C7B2C27666C2000F5177B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C0C7B1427666C1A00F5177B /* Project object */;
+}
